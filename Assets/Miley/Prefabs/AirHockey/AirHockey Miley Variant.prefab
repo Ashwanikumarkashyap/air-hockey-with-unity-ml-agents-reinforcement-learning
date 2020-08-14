@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &491552583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491552584}
+  - component: {fileID: 491552585}
+  m_Layer: 17
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &491552584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491552583}
+  m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6620664738803341245}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &491552585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491552583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: AirHockeyPlayerP2
+  m_DetectableTags:
+  - Untagged
+  - AirHockeyPuck
+  m_RaysPerDirection: 16
+  m_MaxRayDegrees: 180
+  m_SphereCastRadius: 0.005
+  m_RayLength: 1
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 229171
+  m_ObservationStacks: 1
+  rayHitColor: {r: 1, g: 0, b: 0, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 0
+  m_EndVerticalOffset: 0
+--- !u!1 &1855126490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1855126491}
+  - component: {fileID: 1855126492}
+  m_Layer: 17
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855126491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855126490}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5313438932665000011}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1855126492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855126490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: AirHockeyPlayer
+  m_DetectableTags:
+  - Untagged
+  - AirHockeyPuck
+  m_RaysPerDirection: 16
+  m_MaxRayDegrees: 180
+  m_SphereCastRadius: 0.005
+  m_RayLength: 1
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 229171
+  m_ObservationStacks: 1
+  rayHitColor: {r: 1, g: 0, b: 0, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 0
+  m_EndVerticalOffset: 0
+--- !u!114 &7763614264054215825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313438932665236587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba42f63db9f04049a4f4b370d6e170b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 500
+  MoveForce: 20
+  MaxVelocity: 5
+  IsPlayer1: 1
+  GameManager: {fileID: 2722599182254154865}
+  Puck: {fileID: 5653560707166747663}
+--- !u!114 &7763614264054215826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313438932665236587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 2
+    NumStackedVectorObservations: 1
+    VectorActionSize: 02000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: AirHockey
+  TeamId: 0
+  m_UseChildSensors: 1
+--- !u!114 &7763614264054215828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313438932665236587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
+--- !u!114 &7763614264054215823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620664738803370909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba42f63db9f04049a4f4b370d6e170b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 500
+  MoveForce: 20
+  MaxVelocity: 5
+  IsPlayer1: 0
+  GameManager: {fileID: 2722599182254154865}
+  Puck: {fileID: 5653560707166747663}
+--- !u!114 &7763614264054215824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620664738803370909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 2
+    NumStackedVectorObservations: 1
+    VectorActionSize: 02000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: AirHockeyP2
+  TeamId: 0
+  m_UseChildSensors: 1
+--- !u!114 &7763614264054215827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6620664738803370909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
+--- !u!1001 &2722599182758273934
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 638863359, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+      propertyPath: P1
+      value: 
+      objectReference: {fileID: 7763614264054215825}
+    - target: {fileID: 638863359, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+      propertyPath: P2
+      value: 
+      objectReference: {fileID: 7763614264054215823}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014009, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763614264720014010, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_Name
+      value: AirHockey Miley
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815360564374864837, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815360564374864837, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815360564374864837, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815360564374864837, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815360564374864837, guid: d5aa0590fd991ff429670df9e4f80623,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5896735639100943681, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+    - {fileID: 4866450406535256759, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+    - {fileID: 8782464594220485457, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+    - {fileID: 7763614265136430247, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+    - {fileID: 7266287237529303401, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+    - {fileID: 8542056015721057951, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d5aa0590fd991ff429670df9e4f80623, type: 3}
+--- !u!114 &5653560707166747663 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7763614264368357249, guid: d5aa0590fd991ff429670df9e4f80623,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722599182758273934}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86010ff3c6eab3f4c9fc73f03aaf83de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5313438932665236587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7815360564375232485, guid: d5aa0590fd991ff429670df9e4f80623,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722599182758273934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5313438932665000011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7815360564374864837, guid: d5aa0590fd991ff429670df9e4f80623,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722599182758273934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6620664738803370909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9091023859519793171, guid: d5aa0590fd991ff429670df9e4f80623,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722599182758273934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6620664738803341245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9091023859519370291, guid: d5aa0590fd991ff429670df9e4f80623,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722599182758273934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2722599182254154865 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 638863359, guid: d5aa0590fd991ff429670df9e4f80623,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722599182758273934}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1679c42bf4554a598edfcf1805174cef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
