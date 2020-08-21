@@ -3,7 +3,7 @@
 **1. Summary**
 --------------
 
-In the project, I started off by doing a -[**Hummingbird** tutorial](https://learn.unity.com/course/ml-agents-hummingbirds) from
+In the project, I started off by doing a -[Hummingbird tutorial](https://learn.unity.com/course/ml-agents-hummingbirds) from
 Unity-Learn to get an idea about ML-Agents, reinforcement learning, and
 training a model. Simultaneously, I explored the Unity Editor and tried
 out building the entire scene. While training the bird's model, I
@@ -220,7 +220,7 @@ It is clearly visible from the trend that initially our model's mean
 reward wasn't very good and the player's paddle was just moving randomly
 and were not able to score.
 
-[[Intitial\_training\_video]{.underline}](media/training_videos/inital_training.mp4)
+[[Intitial\_training\_video]](media/training_videos/inital_training.mp4)
 
 But over the course of training and with the increase in the number of
 iterations our model learned to perform well. Players became more
@@ -229,7 +229,7 @@ observing pucks position and based on the opponent's paddle position
 they learned to defend their side too. A similar trend can also be seen
 in the training video.
 
-[[Training\_over\_time]{.underline}](media/training_videos/after_hours_of_training.mp4)
+[[Training\_over\_time]](media/training_videos/after_hours_of_training.mp4)
 
 #### 3.2-2 Implementation 
 
@@ -242,6 +242,5 @@ a scoring mechanism to keep track of who's winning.
 
 **Fig 9 - Ash vs ML-Agent**
 
-Watch the nail-biting match against the superbly trained ML-Agent vs me
-here and to see who finally won! -
-[[AirHockeyDemo.mp4]{.underline}](media/training_videos/trained_model_vs_human.mp4)
+Watch the nail-biting match against the superbly trained ML-Agent vs me here and to see who finally won! -
+[[AirHockeyDemo.mp4]](media/training_videos/trained_model_vs_human.mp4)
