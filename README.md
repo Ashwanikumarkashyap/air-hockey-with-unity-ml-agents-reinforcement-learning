@@ -1,12 +1,9 @@
----
-subtitle: '**Play hockey with Unity's ML-Agents**[]{#_rmhkx0gb7rtf .anchor} **--
-  Reinforcement Learning**'
----
+# Play Air Hockey with Unity's ML-Agents, Reinforcement Learning
 
 **1. Summary**
 --------------
 
-In the project, I started off by doing a **Hummingbird** tutorial from
+In the project, I started off by doing a -[**Hummingbird** tutorial](https://learn.unity.com/course/ml-agents-hummingbirds) from
 Unity-Learn to get an idea about ML-Agents, reinforcement learning, and
 training a model. Simultaneously, I explored the Unity Editor and tried
 out building the entire scene. While training the bird's model, I
@@ -24,6 +21,7 @@ observations, rewards, made some code changes, and provided a scoring UI
 to finally create an amazing ML-Agent that was smart enough to never let
 me win!!
 
+
 **2. Getting Started**
 ----------------------
 
@@ -31,24 +29,18 @@ You can create a new project, or you can use the existing project to
 empower your game components with ML-Agents.
 
 **2.1 Installation**
-
 1.  Go to the package manager and install the 'Ml Agents' to your Unity
     Project.
-
 2.  Install python or conda (to manage different python versions)
     -[python](https://www.python.org/downloads/),
     [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
-
 3.  If using conda, create the conda environment with the following
     command in the terminal\
     conda create -n \<environment name\> python=\<python version\>
-
 4.  If using conda, to list the existing environment\
     conda env list
-
 5.  If using conda, activate the created environment\
     conda activate \<environment name\>
-
 6.  Install python's ML Agent module\
     pip install mlagents
 
@@ -90,8 +82,7 @@ every action the agent performs, there will be a certain reward
 associated with it which could be either positive or negative so that
 the ML-Agent trains in the right direction.
 
-![](media/image1.png){width="3.1927088801399823in"
-height="1.2646445756780402in"}
+![](media/image1.png)
 
 **Fig 1 - Reinforcement learning**
 
@@ -124,7 +115,7 @@ give better results sooner.
 
 The picture below shows the reward awarded to the bird while training:
 
-![](media/image2.png){width="6.5in" height="2.8281255468066493in"}
+![](media/image2.png)
 
 **Fig 2 - Humming Bird's training results**
 
@@ -136,7 +127,7 @@ the bird comes closer to the flower, it begins to get positive reward
 and soon after multiple iterations, the bird learns to stay closer to
 the flowers and then gets the nectar from them.
 
-![](media/image3.png){width="6.34375in" height="2.6718755468066493in"}
+![](media/image3.png)
 
 **Fig 3 - Humming Bird's training results, Graphs showing the
 performance of 2 best-trained models, X-Axis represents the number of
@@ -151,16 +142,14 @@ bird has learnt to drink nectar from the flower.
 
 First trained model: The bird wasn't able to compete at all.
 
-![](media/image4.png){width="6.057292213473316in"
-height="3.4443427384076992in"}
+![](media/image4.png)
 
 **Fig 4 - First trained model results**
 
 Second trained model: The bird has learned and was able to drink nectar
 from the flower but we definitely were better.
 
-![](media/image5.png){width="6.088542213473316in"
-height="3.2083333333333335in"}
+![](media/image5.png)
 
 **Fig 5 - Second trained model results**
 
@@ -208,8 +197,7 @@ progresses. The 17 observations include:
 
     a.  Player's air-hockey paddle to the puck
 
-![](media/image6.png){width="5.838542213473316in"
-height="2.3333333333333335in"}
+![](media/image6.png)
 
 **Fig 6 - Training the Air Hockey model**
 
@@ -217,15 +205,14 @@ Based on these observations and the set configuration for the
 hyperparameters we trained our model and the following trend is
 observed.
 
-![](media/image7.png){width="6.234375546806649in"
-height="2.6675929571303585in"}
+![](media/image7.png)
 
 **Fig 7 - Air Hockey training results, the graph represents the mean
 reward of the Player's air-hockey paddle in the y-axis and the number of
 iterations on the x-axis. The blue curve is for the first player and
 orange is for the second.**
 
-![](media/image8.png){width="6.5in" height="3.5416666666666665in"}
+![](media/image8.png)
 
 **Fig 8 - Air Hockey training results**
 
@@ -251,8 +238,7 @@ trained player started performing reasonably well, we decided to compete
 against it. We created a separate UI for the game and added a timer and
 a scoring mechanism to keep track of who's winning.
 
-![](media/image9.png){width="5.854166666666667in"
-height="2.7864588801399823in"}
+![](media/image9.png)
 
 **Fig 9 - Ash vs ML-Agent**
 
