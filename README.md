@@ -3,7 +3,7 @@
 **1. Summary**
 --------------
 
-In the project, I started off by doing a -[Hummingbird tutorial](https://learn.unity.com/course/ml-agents-hummingbirds) from
+In the project, I started off by doing a [Hummingbird tutorial](https://learn.unity.com/course/ml-agents-hummingbirds) from
 Unity-Learn to get an idea about ML-Agents, reinforcement learning, and
 training a model. Simultaneously, I explored the Unity Editor and tried
 out building the entire scene. While training the bird's model, I
