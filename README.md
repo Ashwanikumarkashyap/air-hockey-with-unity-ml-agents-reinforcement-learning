@@ -1,4 +1,4 @@
-# Play Air Hockey with Unity's ML-Agents, Reinforcement Learning
+# Play Air Hockey with Unity's ML-Agents (trained AI bot), Reinforcement Learning
 
 **1. Summary**
 --------------
